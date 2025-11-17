@@ -44,7 +44,7 @@ plt.show()
 
 # 5️ Performance Recommendation
 mean_win = data['Win%'].mean()
-print(f"📈 Average Win Percentage of India: {mean_win:.2f}%")
+print(f" Average Win Percentage of India: {mean_win:.2f}%")
 
 if mean_win < 60:
     print(" Recommendation: Focus on bowling strategy and middle-order consistency.")
